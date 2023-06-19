@@ -7,14 +7,11 @@
 int main(void)
 {
 int i;
-int j;
-for (i = 48; i < 58; i++){
-for (j = i ; j < 58 ; j++){
+for (i = 48; i < 57; i++){
 putchar(i);
-putchar(j);
 putchar(',');
 putchar(' ');
 }
-}
+putchar(i);
 return (0);
 }
