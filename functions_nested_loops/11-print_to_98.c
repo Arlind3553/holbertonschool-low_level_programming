@@ -1,10 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * add - adds two numbers together
- * @i: first input
- * @j: second input
- * Return: returns the sum of the numbers
+ * print_to_98 - main func
+ * @n: first int
+ * Return: sum of int x and int y
  */
 void print_to_98(int n)
 {
