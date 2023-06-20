@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - prints all alhpabet
- * letters in lowercase 10 times
+ * _islower - checks for lowercase character
+ * @c: character
+ * Return: 1 if c is lowercase, 0 otherwise
  */
 int _islower(int c)
 {
