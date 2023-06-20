@@ -1,6 +1,9 @@
 #include "main.h"
 /**
- * times_table - prints the 9 times table, starting with 0
+ * add - adds two numbers together
+ * @a: first input
+ * @b: second input
+ * Return: returns the sum of the numbers
  */
 int add(int i, int j)
 {
