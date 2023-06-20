@@ -1,22 +1,20 @@
-#include <stdio.h>
-#include <unistd.h>
+#include "main.h"
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-int _putchar(char c)
+void alphabet()
 {
-	return (write(1, &c, 1));
-}
-
-int main(void)
-{
-char c;
+	char c;
 for (c = 'a'; c <= 'z'; ++c)
 {
 	_putchar(c);
 }
 	_putchar('\n');
+}
+int main(void)
+{
+	void alphabet();
 	return (0);
 }
