@@ -7,7 +7,8 @@ RM = rm
 all: ${OBJ}
 	${CC} ${OBJ} -o ${NAME}
 
-clean: oclean fclean
+clean: 
+	${RM} -f *~ *.tmp ${NAME}
 
 oclean:
 	${RM} -rf ${OBJ}
