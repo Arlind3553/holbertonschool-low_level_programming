@@ -13,6 +13,6 @@ oclean:
 	${RM} -rf ${OBJ}
 
 fclean:
-	${RM} -rf *~ *.swp
+	${RM} -rf *~
 
 re: clean all
