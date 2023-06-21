@@ -4,15 +4,15 @@ OBJ = $(SRC:.c=.o)
 NAME = school
 RM = rm
 CFLAGS = -Wall -Werror -Wextra -pedantic
-
-all: ${OBJ}
+HED = m.h 
+all: ${HED} ${OBJ}
 	${CC} ${CFLAGS} ${OBJ} -o ${NAME}
 
 clean: 
-	${RM} -f *~ *.tmp ${NAME}
+	${RM} -f *~ ${NAME}
 
 oclean:
-	${RM} -rf ${OBJ}
+	${RM} -f ${OBJ}
 
 fclean: clean oclean
 
