@@ -2,16 +2,19 @@
 #include "main.h"
 
 /**
- * more_numbers - main function
+ * print_line - main function
+ * @n: parameter
  * Return: 1 if uppercase and 0 if false
  */
+
 void print_line(int n)
 {
-	int i = 0;
-	while (i <= n)
+	int i;
+
+	for (i = 0; i <= n; i++)
 	{
-		_putchar('_');
-			i++;
+		if (i > 0)
+			_putchar('_');
 	}
 	_putchar('\n');
 }
