@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_line - main function
+ * print_diagonal - main function
  * @n: parameter
  * Return: 1 if uppercase and 0 if false
  */
@@ -12,12 +12,11 @@ void print_diagonal(int n)
 
 	for (i = 0; i < n; i++)
 	{
-		for (j = 0; j < n; j++)
-		{
-			if (j == i)
-				_putchar('\\');
-			else
-				_putchar(' ');
+		for (j = 0; j < i; j++)
+			_putchar(' ');
+		_putchar('\\');
+		if (i == n - 1)
+			continue;
 		_putchar('\n');
 		}
 	}
