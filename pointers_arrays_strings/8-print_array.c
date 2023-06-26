@@ -1,8 +1,10 @@
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
 /**
- *puts_half - function that prints half of a string
- *@str: string
+ *print_array - function that prints n elements of an array of integers
+ *@a: pointer to the array
+ *@n: he number of elements of the array to be printed
  */
 void print_array(int *a, int n)
 {
