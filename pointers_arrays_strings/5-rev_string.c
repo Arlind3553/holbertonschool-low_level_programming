@@ -2,10 +2,13 @@
 #include <stdio.h>
 #include <string.h>
 
+#include "main.h"
+#include <string.h>
 /**
- * rev_string 
- * @s: param
+ *rev_string - reverses the string
+ *@s: string
  */
+
 void rev_string(char *s)
 {
 	int i = 0;
