@@ -1,5 +1,11 @@
 #include "main.h"
 #include <stdio.h>
+/**
+ * _strcat - main function
+ * @dest: param
+ * @src: param
+ * Return: dest
+ */
 char *_strcat(char *dest, char *src)
 {
 	int i = 0;
