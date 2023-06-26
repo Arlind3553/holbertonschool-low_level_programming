@@ -6,7 +6,7 @@
  *puts2 - unction that prints every other character of a string,
  *starting with the
  *first character, followed by a new line
- *@s: string
+ *@str: string
  */
 
 void puts2(char *str)
@@ -18,4 +18,5 @@ void puts2(char *str)
 		_putchar(str[i]);
 		i = i + 2;
 	}
+	_putchar('\n');
 }
