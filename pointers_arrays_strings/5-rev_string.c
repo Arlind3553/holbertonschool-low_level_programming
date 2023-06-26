@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * print_rev - main function
+ * rev_string 
  * @s: param
  */
 void rev_string(char *s)
@@ -13,11 +13,11 @@ void rev_string(char *s)
 	int temp;
 
 	len = strlen(s);
-	for (i = 0; i < len/2; i++)
-			{
-			temp = s[i];
-			s[i] = s[len - 1 - i];
-			s[len - i - 1] = temp;
-			}
+	for (i = 0; i < len / 2; i++)
+	{
+		temp = s[i];
+		s[i] = s[len - 1 - i];
+		s[len - i - 1] = temp;
+	}
 
 }
