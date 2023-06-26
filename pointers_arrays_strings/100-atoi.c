@@ -9,15 +9,23 @@
  */
 int _atoi(char *s)
 {
+  int result;
+  int puiss;
 
-    int num = 0;
-
-    // converting string to number
-    for (int i = 0; s[i] != '\0'; i++) {
-        num = num * 10 + (s[i] - 48);
-    }
-
-    // at this point num contains the converted number
-    printf("%d\n", num);
-    return (num);
+  result = 0;
+  puiss = 1;
+  while (('-' == (*s)) || ((*s) == '+'))
+  {
+      if (*s == '-')
+        puiss = puiss * -1;
+      s++;
+  }
+  while ((*s >= '0') && (*s <= '9'))
+  {
+      result = (result * 10) + ((*s) - '0');
+      s++;
+  }
+  return (result * puiss);
 }
+
+
