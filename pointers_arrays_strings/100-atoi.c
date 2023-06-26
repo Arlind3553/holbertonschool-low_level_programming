@@ -7,25 +7,7 @@
  *@src: source of the string we want to copy
  *Return: the pointer to dest
  */
-int _atoi(char *s)
-{
-  int result;
-  int puiss;
-
-  result = 0;
-  puiss = 1;
-  while (('-' == (*s)) || ((*s) == '+'))
-  {
-      if (*s == '-')
-        puiss = puiss * -1;
-      s++;
-  }
-  while ((*s >= '0') && (*s <= '9'))
-  {
-      result = (result * 10) + ((*s) - '0');
-      s++;
-  }
-  return (result * puiss);
-}
-
-
+int _atoi(char *s)i
+	{ int sign = 1, base = 0, i = 0; 
+		while (s[i] == ' ') { i++; } 
+		if (s[i] == '-' || s[i] == '+') { sign = 1 - 2 * (s[i++] == '-'); } while (s[i] >= '0' && s[i] <= '9') { if (base > INT_MAX / 10 || (base == INT_MAX / 10 && s[i] - '0' > 7)) { if (sign == 1) return INT_MAX; else return INT_MIN; } base = 10 * base + (s[i++] - '0'); } return base * sign; }
