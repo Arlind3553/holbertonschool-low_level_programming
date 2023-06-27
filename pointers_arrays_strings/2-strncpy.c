@@ -1,21 +1,18 @@
 #include "main.h"
-#include <stdlib.h>
-
 /**
- * _strncat - main function
- * @dest: param
- * @src: param
- * @n: param
- * Return: dest
+ *_strncpy -  function that copies a string
+ *@dest: destination
+ *@src: src
+ *@n: n bytes to be copied
+ *Return: return copied string
  */
-char *_strncpy(char *dest, const char *src, size_t n)
+char *_strncpy(char *dest, char *src, int n)
 {
-    size_t i;
+	int i;
 
-   for (i = 0; i < n && src[i] != '\0'; i++)
-        dest[i] = src[i];
-    for ( ; i < n; i++)
-        dest[i] = '\0';
-
-   return dest;
+	for (i = 0; i < n && src[i] != '\0'; i++)
+		dest[i] = src[i];
+	for ( ; i < n; i++)
+	dest[i] = '\0';
+	return (dest);
 }
