@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <string.h>
 /**
  *_strcmp -  function that copies a string
  *@s1: first string to be compared
@@ -9,13 +9,13 @@
 */
 int _strcmp(char *s1, char *s2)
 {
-	while (*s1 != '\0' && *s1 == *s2)
+	int i;
+
+	for (i = 0; i < (int) strlen(s1); i++)
 	{
-		s1++;
-
-		s2++;
+		if (s1[i] - s2[i] != 0)
+			return (s1[i] - s2[i]);
 	}
-
-return (*(unsigned char *)s1 - *(unsigned char *)s2);
+	return (0);
 
 }
