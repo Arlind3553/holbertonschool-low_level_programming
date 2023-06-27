@@ -1,35 +1,20 @@
-What is C
-C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972. It is a very popular language, despite being old. C is strongly associated with UNIX, as it was developed to write the UNIX operating system.
-
-Why learn C?
-It is one of the most popular programming language in the world
-If you know C, you will have no problem learning other popular programming languages such as Java, Python, C++, C#, etc, as the syntax is similar
-C is very fast, compared to other programming languages, like Java and Python
-C is very versatile; it can be used in both applications and technologies
-What is included in this directory?
-This directory includes my journey in learning the C language with Holberton School. Most exercises and topics i have learned in C are explained here! Thank you in advance for taking your time to read them!
-
-Check these topics!:
-argc_argv One of the 2 prototypes of the main function in C!
-bit_manipulation Bit manipulation is the act of algorithmically manipulating bits or other pieces of data shorter than a byte. C language is very efficient in manipulating them!
-doubly_linked_lists Doubly linked lists in C are Lists that have pointers to the next and previous element, very interesting topic!
-file_io File descriptors are used to open, create, delete files and also to read and write in them
-function_pointers Function pointers points to code, not data, Cool!
-functions_nested_loops Loops in loops, used to make thigs without writing much, not that efficient!
-hash_tables Data structure that uses a hash function to get a key index which is used to store the data in the array of linked lists.
-hello_world My introduction to C
-makefiles Used to compile code the way you want
-malloc_free Probably the best and worst thing at the same time in C, memory allocation!
-more_functions_nested_loops More functions and nested loops
-more_malloc_free More fun and misery
-more_singly_linked_lists More linking singles to the next single!
-pointers_arrays_strings Leaning about pointers arrays and an array of characters!
-preprocessor One of the 4 stesps of the compiler in C
-recursion Can't loop? Use recursion!
-search_algorithms Want to search for something? Search here!
-singly_linked_lists Introduction to lists in C!
-static_libraries Creating my first static Library!
-structures_typedef Learning about structures and typedef!
-variables_if_else_while Learning about conditions in C
-variadic_functions argc argv??? Nope
-Contributing
+## This is my first project in C
+This project consists on learning the basics in C programming accomplishing several small tasks until the end of this project.
+Here are some key basics of C programming:
+**Syntax**: C programs consist of a series of statements written in the C language. Statements are terminated by a semicolon (;). The main function serves as the entry point of a C program.
+**Variables and Data Types**: C supports various data types such as integers (int), floating-point numbers (float, double), characters (char), and more. Variables are declared with a specific data type and can store values of that type.
+**Input and Output**: C provides functions like printf() for outputting text to the console and scanf() for accepting input from the user. printf() uses format specifiers to display values of variables in the output.
+**Operators**: C supports a wide range of operators, including arithmetic operators (+, -, *, /, %), relational operators (>, <, >=, <=, ==, !=), logical operators (&&, ||, !), and assignment operators (=, +=, -=, etc.). These operators are used to perform mathematical computations, make comparisons, and manipulate variables.
+**Control Flow**: C uses control structures like if-else statements, switch-case statements, and loops (while, for, do-while) to control the flow of execution in a program. These structures allow for conditional branching and repetition of code based on certain conditions.
+**Functions**: C programs are built using functions, which are modular units of code that perform specific tasks. Functions have a return type (if any), a name, optional parameters, and a body containing the code to be executed.
+**Pointers**: C allows the use of pointers, which are variables that store memory addresses. Pointers provide direct access to memory, enabling efficient memory management and manipulation of data structures.
+**Arrays**: C supports arrays, which are contiguous blocks of memory used to store multiple elements of the same data type. Arrays can be accessed using indices and are useful for storing collections of data.
+**Libraries**: C provides a standard library (stdio.h, math.h, etc.) that contains a set of functions for common tasks. Additionally, C allows the inclusion of external libraries to access more advanced functionality.
+Some of the basics we have in this project are :
+* How to make our first 'Hello World'
+* C variables if, else, while
+* Functions and nested loops
+* Makefiles
+* Pointers, Arrays and Strings
+We check our code with betty-style using betty < filename >.
+We will see each of the topics in each document more closely.
