@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *_strncmp -  function that copies a string
+ *_strcmp -  function that copies a string
  *@s1: first string to be compared
  *@s2: string to be compared with s1
  *Return: returns an integer indicating the result of the
