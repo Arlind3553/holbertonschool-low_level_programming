@@ -44,3 +44,5 @@ int main(void)
     printf("-------------------------------------------------\n");
     simple_print_buffer(buffer, 98);    
     return (0);
+}
+
