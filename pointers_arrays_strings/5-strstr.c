@@ -5,7 +5,7 @@
  * _strstr - main function
  * @haystack: param
  * @needle: param
- * Return: pointer
+ * Return: a pointer to the beginning of the located substring
  */
 
 char *_strstr(char *haystack, char *needle)
