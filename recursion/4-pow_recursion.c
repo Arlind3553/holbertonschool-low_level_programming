@@ -2,9 +2,10 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * factorial - returns the factorial of a given number
- * @n: number
- * Return: factorial
+ * _pow_recursion - returns value of x raised to the power of y
+ * @x: base number
+ * @y: power of number
+ * Return: x to the powe of y
  */
 int _pow_recursion(int x, int y)
 {
