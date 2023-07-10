@@ -12,6 +12,9 @@ char *_strdup(char *str)
 	size_t len = strlen(str) + 1;
 	char *new = malloc(len);
 
+	if (str == NULL)
+		return(NULL);
+
 	if (new != NULL)
 	{
 		memcpy(new, str, len);
