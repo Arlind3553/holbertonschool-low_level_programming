@@ -19,5 +19,7 @@ char *_strdup(char *str)
 	{
 		memcpy(new, str, len);
 	}
+	if(new == NULL)
+		return NULL;
 	return (new);
 }
