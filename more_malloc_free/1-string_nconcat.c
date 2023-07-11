@@ -27,5 +27,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	strcpy(pointer, s1);
 	for (i = 0; i < n; i++)
 		pointer[strlen(s1) + i] = s2[i];
+	pointer[strlen(s1) + n] = '\0'
 	return (pointer);
 }
