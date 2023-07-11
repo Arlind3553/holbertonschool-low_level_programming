@@ -28,7 +28,7 @@ By default, the memory used to store those variables can be read and written. Wh
 ### Dynamic allocation
 #### Malloc
 The malloc function allocates a specific number of bytes in memory and returns a pointer to the allocated memory. This memory will have read and write permissions.
-In this [exercise](https://github.com/izabela9/holbertonschool-low_level_programming/blob/main/malloc_free/0-create_array.c) we will write a function that creates an array of chars, and initializes it with a specific char.
+In this [exercise](https://github.com/arlind3553/holbertonschool-low_level_programming/blob/main/malloc_free/0-create_array.c) we will write a function that creates an array of chars, and initializes it with a specific char.
 * Prototype: char *create_array(unsigned int size, char c);
 * Returns NULL if size = 0
 * Returns a pointer to the array, or NULL if it fails
@@ -38,7 +38,7 @@ When you are using malloc, you have to handle the memory yourself. This means th
 * You need to keep track of all the addresses of the allocated memory (in a variable of type pointer)
 * You have to deallocate every memory space you previously allocated yourself. If you do not do this, then your program can run out of memory.
 * Your operating system could even kill your program while it is running
-The *free* function frees the memory space which have been allocated by a previous call to malloc. In this [example](https://github.com/izabela9/holbertonschool-low_level_programming/blob/main/malloc_free/4-free_grid.c) we are writing a function that frees a 2 dimensional grid previously created by our [alloc_grid](https://github.com/izabela9/holbertonschool-low_level_programming/blob/main/malloc_free/3-alloc_grid.c) function.
+The *free* function frees the memory space which have been allocated by a previous call to malloc. In this [example](https://github.com/arlind3553/holbertonschool-low_level_programming/blob/main/malloc_free/4-free_grid.c) we are writing a function that frees a 2 dimensional grid previously created by our [alloc_grid](https://github.com/arlind3553/holbertonschool-low_level_programming/blob/main/malloc_free/3-alloc_grid.c) function.
 * Prototype: void free_grid(int **grid, int height)
 The memory allocated by malloc is free‘d with a call to the function free.
 You should always free all malloc'ed memory spaces.
