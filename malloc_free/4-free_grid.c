@@ -3,10 +3,9 @@
 #include "main.h"
 #include <string.h>
 /**
- * alloc_grid - returns a pointer to a 2 dimensional array
- *@width: width of the array
+ * free_grid - returns a pointer to a 2 dimensional array
+ *@grid: width of the array
  *@height: height of the array
- *Return: pointer to the two dimensional array
  */
 void free_grid(int **grid, int height)
 {
