@@ -10,8 +10,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	dog1->name = malloc(strlen(name));
 	dog1->name = malloc(strlen(name));
+
 	strcpy(dog1->name, name);
 	strcpy(dog1->owner, owner);
-	newdog->age = age;
-	return (newdog);
+	dog1->age = age;
+	return (dog1);
 }
