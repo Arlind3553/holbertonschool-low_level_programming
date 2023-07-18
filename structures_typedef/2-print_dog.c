@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include "dog.h"
+/**
+ *print_dog - function tha prints a struct dog
+ *@d: struct pointer
+ */
 
 void print_dog(struct dog *d)
 {
