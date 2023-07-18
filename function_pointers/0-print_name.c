@@ -1,12 +1,21 @@
 #include <stdio.h>
 /**
- *print_name - prints a name
- *@name: name to be printed
- *@f: function callback
+ *array_iterator - executes a given functions as a prameter on each
+ *elemnt of an array
+ *@array: given array to iterate
+ *@size: size of the array
+ *@action: callback function
  */
-
-void print_name(char *name, void (*f)(char *))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	if (f != NULL)
-		f(name);
+	int i;
+	if(array != NULL && action != NULL)
+	{
+		i = 0;
+		while (i < size)
+		{
+			action(array[i]);
+			i++
+		}
+	}
 }
