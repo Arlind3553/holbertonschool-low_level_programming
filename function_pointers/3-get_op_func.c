@@ -21,11 +21,11 @@ int(*get_op_func(char *s))(int, int)
 	i = 0;
 	while (ops[i].op)
 	{
-		if(*s == *ops[i].op)
-			return(ops[i].f);
+		if (*s == *ops[i].op)
+			return (ops[i].f);
 		i++;
 	}
 	printf("Error\n");
 	exit(99);
-	return(NULL);
+	return (NULL);
 }
