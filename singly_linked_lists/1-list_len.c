@@ -1,12 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "lists.h"
-
 /**
- * print_list - function that prints all the elements
+ * list_len - function that returns the number of nodes
  *@h: header node
  *Return: number of nodes
  */
+
 size_t list_len(const list_t *h)
 {
 	size_t i = 0;
