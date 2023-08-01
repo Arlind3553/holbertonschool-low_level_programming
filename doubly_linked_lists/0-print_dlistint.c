@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stddef.h>
 #include "lists.h"
+/**
+ *print_dlistint - function that prints all the elements
+ *@h: header node
+ *Return: the number of the nodes
+ */
+
 
 size_t print_dlistint(const dlistint_t *h)
 {
